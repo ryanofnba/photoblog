@@ -160,7 +160,8 @@ main .helper span {
     transform: translate3d(0px, -50%, 0);
   }
 }
-@media screen and (max-width: 400px) {
+
+@media screen and (max-device-width: 768px) {
   body {
     padding-left: 0;
   }
@@ -205,3 +206,4 @@ main .helper span {
     pointer-events: none;
   }
 }
+
