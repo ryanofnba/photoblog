@@ -2,42 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50244b50-93f9-4abe-9601-49d48c32e15c" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/About.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/Accident.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/AddAnnouncement.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/Announcement.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/Announcements.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/Applications.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/Banner.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/Banquet.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/Families.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/HomeBottom.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/KasaEvents.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/LG.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/LinkPanel.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/Member.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/PCW.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/Passings.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/RBL.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/RBLTree.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/Revealing.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/SideNav.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/backup.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/kasa_banner.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/CalPoly.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/CalPolyLogo.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/board.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/kasa_banner.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/kasabanquet.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/sweetiecup.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.jsx" afterPath="$PROJECT_DIR$/app/app.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/Footer.jsx" afterPath="$PROJECT_DIR$/app/components/Footer.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/Home.jsx" afterPath="$PROJECT_DIR$/app/components/Home.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/Nav.jsx" afterPath="$PROJECT_DIR$/app/components/Nav.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/reducers/reducers.jsx" afterPath="$PROJECT_DIR$/app/reducers/reducers.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/store/configureStore.jsx" afterPath="$PROJECT_DIR$/app/store/configureStore.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/app.scss" afterPath="$PROJECT_DIR$/app/styles/app.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/firebase/index.js" afterPath="$PROJECT_DIR$/app/firebase/index.js" />
     </list>
     <ignored path="kasa.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -80,7 +45,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Nav.jsx" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Nav.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/components/Nav.jsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="402">
@@ -95,8 +60,18 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/firebase/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state relative-caret-position="198">
+              <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.env" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/test.env">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -176,6 +151,7 @@
         <option value="$PROJECT_DIR$/app/components/Home.jsx" />
         <option value="$PROJECT_DIR$/app/components/Nav.jsx" />
         <option value="$PROJECT_DIR$/app/components/Footer.jsx" />
+        <option value="$PROJECT_DIR$/app/firebase/index.js" />
       </list>
     </option>
   </component>
@@ -457,15 +433,15 @@
       <option name="presentableId" value="Default" />
       <updated>1473787616755</updated>
       <workItem from="1473787617991" duration="9961000" />
-      <workItem from="1473877558088" duration="912000" />
+      <workItem from="1473877558088" duration="1080000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10873000" />
+    <option name="totallyTimeSpent" value="11041000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="23" width="1440" height="873" extended-state="6" />
+    <frame x="-1" y="23" width="1440" height="873" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16527778" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -765,14 +741,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/firebase/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/components/HomeBottom.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -824,6 +792,22 @@
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/firebase/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/test.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
