@@ -13,7 +13,6 @@ import Home from 'Home';
 const actions = require('actions');
 //Redux
 const store = require('configureStore').configure();
-import firebase from 'app/firebase/';
 
 
 
@@ -21,11 +20,6 @@ import firebase from 'app/firebase/';
 store.subscribe(() => {
   const state = store.getState();
   console.log('New State', state);
-});
-
-
-firebase.auth().onAuthStateChanged(user => {
-
 });
 
 // Load foundation
