@@ -13,18 +13,21 @@ class Nav extends Component {
   render() {
 
     return (
-      <div className="top-bar">
-        <div className="top-bar-left">
-          <ul className="menu">
-            <li>
-              <IndexLink
-                className="menu-text"
-                to="/"
-                activeClassName="active"
-                activeStyle={{fontWeight: 'bold', color: '#757575'}}>Home</IndexLink>
+      <div>
+        <nav className="menu" tabIndex="0">
+          <div className="smartphone-menu-trigger"></div>
+          <header className="avatar">
+            <img src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/14212547_10207647499161762_5607096808208715230_n.jpg?oh=49071b24dd57b7bd9a319ad8355ae7ae&oe=586EAFCC" />
+            <h2>Ryan Huang</h2>
+          </header>
+          <ul>
+            <li tabIndex="0" className="icon-introduction">
+               <span>Introduction</span>
             </li>
+            <li tabIndex="0" className="icon-photography"><span>Photography</span></li>
+            <li tabIndex="0" className="icon-contacts"><span>Social Media</span></li>
           </ul>
-        </div>
+        </nav>
       </div>
     );
   }

@@ -7,7 +7,7 @@ import Footer from 'Footer';
 class Main extends Component {
   render() {
     return (
-      <div className="main">
+      <div className="main-screen">
         <Nav />
         {this.props.children}
         <Footer />
